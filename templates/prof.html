@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}
+Professor Sign-up
+{% endblock title %}
+{% block body %}
+<div class="container">
+    <h1>
+        Professor Registration
+    </h1>
+    <form method="POST" action="">
+        <input type="text" name="num" placeholder="Professor Id" />
+        <br>
+        <input type="email" name="email" placeholder="Email" />
+        <br>
+        <input type="text" name="name" placeholder="Name" />
+        <br>
+        <input type="password" name="pswd" placeholder="Password" />
+        <br>
+        <input type="submit" name="action" id="submit" value="Register">
+        Already registered?<input type="submit" name="action" id="submit" value="Login">
+    </form>
+</div>
+{% endblock body %}

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %} Homepage {% endblock title %}
+{% block body %}
+<style>
+    input{
+        padding-left: 6px;
+    }
+</style>
+<div class="container my-5" style="width:50%">
+    <h1 style="margin:10%">
+        Student Registration
+    </h1>
+    <form method="POST" action="/" style="margin-top: -30px;">
+
+        <input type="text" name="num" placeholder="Rollnumber " autofocus />
+        <br>
+        <input type="email" name="email" placeholder="Email" />
+        <br>
+        <input type="text" name="name" placeholder="Name" />
+        <br>
+        <input type="text" name="program" placeholder="Program" />
+        <br>
+        <input type="text" name="depname" placeholder="department name" />
+        <br>
+        <input type="text" name="cpi" placeholder="Cpi" />
+        <br>
+        <input type="password" name="pswd" placeholder="Password" />
+        <br>
+
+        <input id="submit" type="submit" name="action" value="Register">
+        Already registered?
+        <input id="submit" type="submit" name="action" value="Sign-In">
+        <!-- Sign-In as Admin:
+        <input id="submit" type="submit" name="action" value="Admin-Sign-In">
+        Register As Prof:
+        <input id="submit" type="submit" type="submit" name="action" value="Prof-Register"> -->
+
+    </form>
+</div>
+{% endblock body %}

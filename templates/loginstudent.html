@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}
+  Student Login
+{% endblock title %}
+{% block body %}
+<style>
+  input{
+    padding-left: 4px;
+  }
+</style>
+<div class="container">
+  <h1>
+    Login
+  </h1>
+  <form method="POST" action="">
+ 
+    <input type="text" name="email" placeholder="Email" equired />
+    <br>
+  
+  <input type="password" name="pswd" placeholder="Password " />
+    <br>
+   
+    <input type="submit" name="login" value="Login" id="submit">
+  </form> 
+</div>
+{% endblock body %}
