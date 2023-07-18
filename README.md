@@ -7,6 +7,8 @@ Go to powershell(being in project directory) and follow the below steps :-
 Command: pip install virtualenv (enter)
 
 then type virtualenv env (enter)
+![image](https://github.com/ishanichogle/oCEO-flask-webapp/assets/76484181/f7119b56-01f7-49f8-bcc9-6b5b56704510)
+
 
 Fig: a folder named "env" will be created[as shown]
 Screenshot 2023-04-01 172523
